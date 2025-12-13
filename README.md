@@ -6,6 +6,9 @@ CMR is a runtime architecture built on one non-negotiable principle:
 > has fulfilled all of its responsibilities as a system.**
 
 ---
+> This document defines the non-negotiable axioms of CMR.
+> All implementations MUST conform to these principles.
+> Any deviation indicates a different system.
 
 ## Core Axioms
 
@@ -107,6 +110,11 @@ This makes the system harder to design,
 but easier to trust.
 
 ---
+## Status
+
+This document defines CMR axioms v0.1.
+Future revisions may clarify wording,
+but MUST NOT weaken or contradict these axioms.
 
 ## Summary
 
@@ -117,3 +125,5 @@ but easier to trust.
 
 A system that achieves semantic closure  
 has fulfilled all of its responsibilities as a system.
+
+
