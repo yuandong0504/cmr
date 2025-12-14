@@ -77,6 +77,20 @@ Leadership ends before execution begins.
 
 ---
 
+### 5. No Tick Dependency
+
+CMR does not rely on ticks, heartbeats, or periodic polling
+to drive system progress.
+
+- Progress is caused by messages, not by time slices
+- No component advances "because time passed"
+- Idle systems remain idle without artificial activity
+
+Tick-based execution is a consequence of thread scheduling,
+not a fundamental property of computation.
+
+CMT does not require ticks to remain live, responsive, or correct.
+
 ## Responsibility Boundary
 
 CMR makes a strict distinction between **system responsibility** and **world responsibility**.
