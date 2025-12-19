@@ -69,6 +69,14 @@ This establishes the minimal boundary model required
 for integrating future I/O systems (e.g. epoll, io_uring)
 under the same architectural rules.
 
+## Reference Implementation
+
+A reference implementation is provided at:
+
+`rfc/implementations/scat10/`
+
+This implementation is normative for RFC-0001.
+
 ## Related Work
 
 - SCAT series roadmap
